@@ -1,0 +1,19 @@
+extends layout.pug 
+
+block content 
+    
+    body(class='background-image')
+
+    div.header-container
+        h1 Welcome to EchoSphere, #{user.display_name}! 
+        img(src=user.images[1].url, class='circular-image')
+
+    table 
+        each a in topArtists
+            tr 
+                - var artist_name = a.name
+                - var artist_pic = a.images[0].url
+
+                td #{artist_name}
+                td 
+                    img(src=artist_pic, class='artist-image')
