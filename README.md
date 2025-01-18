@@ -1,16 +1,16 @@
-# EchoSphere 🎵 Spotify Top Artists Visualizer
+# Top Spotify Artists
 ## Overview
-EchoSphere is a web application that allows Spotify users to discover and visualize their top artists 
-through an intuitive, personalized interface. By leveraging the Spotify Web API, EchoSphere provides 
+Top Spotify Artists is a web application that allows Spotify users to discover and visualize their top artists 
+through an intuitive, personalized interface. By leveraging the Spotify Web API, this program provides 
 users with insights into their music listening habits.
 
-## Features 🚀
+## Features 
 * Seamless Spotify Account Authentication
 * Retrieve and Display Top Artists
 * Elegant, Responsive Design
 * Secure OAuth 2.0 Implementation
 
-## Technologies Used 💻
+## Technologies Used 
 * Node.js
 * Express.js
 * Spotify Web API
@@ -19,13 +19,13 @@ users with insights into their music listening habits.
 * JavaScript
 * CSS
 
-## How To Use 🔍
+## How To Use 
 1. User logs in via Spotify
 2. Application requests authorization
 3. Retrieves top artists data
 4. Displays artists in an elegant table format
 
-# Setup and Installation 🛠️
+# Setup and Installation 
 ## Prerequisites
 * Node.js
 * Spotify Account (Can be free account)
